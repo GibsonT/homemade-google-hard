@@ -17,11 +17,19 @@ header {
   background-color: #F1F1F1;
   padding-left: 0.75em;
   padding-top: 0.5em;
+  padding-right: 1.9em;
 }
 
 footer {
   height: 5.25em;
   background-color: #F2F2F2;
+}
+
+button {
+  background-color: #4386FB;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
 }
 
 .result-block {
@@ -85,7 +93,7 @@ footer {
   height: 3em;
   border-radius: 0 2px 2px 0;
   border: none;
-  background-color: #4386FB;
+
   background-image: url("../img/mag_glass.png");
   background-repeat: no-repeat;
   background-size: 16px 16px;
@@ -94,4 +102,24 @@ footer {
 
 #search-button:hover {
   background-color: #3878EA;
+}
+
+#sign-in-button {
+  float: right;
+  width: 5.45em;
+  height: 2.35em;
+  background-color: #4386FB;
+  border: none;
+  border-radius: 2px;
+  margin-top: 0.5em;
+}
+
+#gapps-link {
+  float: right;
+  display: block;
+  margin-top: 0.65em;
+  margin-right: 0.85em;
+  width: 30px;
+  height: 30px;
+  background: transparent url("../img/gappsIcon_grey.png") center top no-repeat;
 }
