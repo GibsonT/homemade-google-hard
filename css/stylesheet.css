@@ -1,13 +1,13 @@
-header footer .result-block #search-types-nav #search-performance
-#results #related-searches #change-page-nav {
+header, footer, .result-block, #search-types-nav, #search-performance,
+#results, #related-searches, #change-page-nav {
   display: block;
 }
 
-header footer #search-types-nav #search-performance #results {
-  width: 100%
+header, footer, #search-types-nav, #search-performance, #results {
+  width: 100%;
 }
 
-.result-block #related-searches #change-page-nav {
+#related-searches, #change-page-nav, .result-block {
   width: 40%;
   margin-left: 8.5em;
 }
