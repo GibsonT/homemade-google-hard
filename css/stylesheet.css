@@ -15,6 +15,8 @@ header, footer, #search-types-nav, #search-performance, #results {
 header {
   height: 3.75em;
   background-color: #F1F1F1;
+  padding-left: 0.75em;
+  padding-top: 1em;
 }
 
 footer {
@@ -52,4 +54,10 @@ footer {
 #change-page-nav {
   height: 7em;
   border: 1px solid brown;
+}
+
+#logo {
+  float: left;
+  width: 6em;
+  height: 2.25em;
 }
