@@ -34,7 +34,6 @@ button {
 
 .result-block {
   height: 6em;
-  border: 1px solid red;
   margin-bottom: 1em;
 }
 
@@ -46,6 +45,17 @@ button {
   font-size: 13px;
   text-decoration: none;
   color: #909090;
+}
+
+.result-heading {
+  font-size: 18px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #1A0DAB;
+}
+
+.result-heading:visited {
+  color: #660099;
 }
 
 #all-link {
@@ -63,13 +73,13 @@ button {
 
 #search-performance {
   height: 2.75em;
-  border: 1px solid #EBEBEB;
   margin-bottom: 0.5em;
+  padding-left: 8.5em;
+  padding-top: 0.8em;
 }
 
 #results {
-  border: 1px solid blue;
-  margin-top: 0.5em;
+  margin-top: 0.55em;
 }
 
 #related-searches {
@@ -199,4 +209,10 @@ button {
 
 #search-settings-button:hover {
   background-color: #F5F5F5;
+}
+
+#search-performance-text {
+  font-size: 13px;
+  font-family: sans-serif;
+  color: #909090;
 }
