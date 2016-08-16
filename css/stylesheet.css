@@ -158,17 +158,29 @@ em {
 }
 
 #search-text-box {
+  display: block;
   float: left;
   margin-left: 1.25em;
   margin-top: 0.15em;
   margin-right: 0;
-  height: 3em;
-  width: 44.5em;
+  padding-left: 0.75em;
+  height: 2.4em;
+  width: 37em;
   background-image: url("../img/mic.png");
   background-repeat: no-repeat;
   background-size: 25px 25px;
   background-position: 98.5% 50%;
   border: 1px solid #D9D9D9;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+#search-text-box:hover {
+  border-color: darkgray;
+}
+
+#search-text-box:focus {
+  border-color: #4285F4;
 }
 
 #search-button {
