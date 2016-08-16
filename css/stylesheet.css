@@ -103,6 +103,11 @@ em {
   font-size: 13px;
   margin-bottom: -0.25em;
   color: #1A0DAB;
+  text-decoration: none;
+}
+
+.related-listing:hover {
+  text-decoration: underline;
 }
 
 .bottom-footer-link {
