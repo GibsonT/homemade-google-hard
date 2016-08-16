@@ -1,5 +1,5 @@
 # homemade-google-hard
-You liked it easy, now we're going to do it hard! The hard version of my repo homemade-google-easy.
+You liked it easy, now we're going to do it hard! The hard version of my repo [homemade-google-easy](https://github.com/GibsonT/homemade-google-easy).
 
 This is the optional 'Difficult' portion of the HTML/CSS project for Project Odin; specifically, the project [found here](http://www.theodinproject.com/web-development-101/html-css).
 
