@@ -21,14 +21,32 @@ header {
 }
 
 footer {
-  height: 5.25em;
+  height: 6.5em;
   background-color: #F2F2F2;
+  font-family: sans-serif;
+  font-size: 13px;
+  color: #AAAAAA;
+  padding-left: 10em;
+  padding-top: 0.25em;
+}
+
+footer > a {
+  display: inline-block;
+  color: #777777;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 13px;
+  margin-top: 1.6em;
 }
 
 button {
   background-color: #4386FB;
   color: white;
   font-size: 13px;
+  font-weight: bold;
+}
+
+em {
   font-weight: bold;
 }
 
@@ -74,6 +92,23 @@ button {
   color: #545454;
 }
 
+.hr-color {
+  border: 1px solid #EEEEEE;
+  border-style: solid none none none;
+}
+
+.related-listing {
+  font-family: sans-serif;
+  display: block;
+  font-size: 13px;
+  margin-bottom: -0.25em;
+  color: #1A0DAB;
+}
+
+.bottom-footer-link {
+  margin-right: 2em;
+}
+
 #all-link {
   margin-left: 0.6em;
   font-weight: bold;
@@ -99,13 +134,20 @@ button {
 }
 
 #related-searches {
-  height: 11em;
-  border: 1px solid violet;
+  height: 10em;
+  width: 38.5em;
+  border: 1px solid #EEEEEE;
+  border-style: solid none solid none;
+  margin-top: -0.55em;
+  margin-left: 8em;
+  display: block;
 }
 
 #change-page-nav {
   height: 7em;
-  border: 1px solid brown;
+  display: block;
+  padding-left: 8em;
+  padding-top: 0.9em;
 }
 
 #logo {
@@ -231,4 +273,33 @@ button {
   font-size: 13px;
   font-family: sans-serif;
   color: #909090;
+}
+
+#related-search-heading {
+  color: #808080;
+  font-family: sans-serif;
+  font-size: 18px;
+  margin-bottom: 1em;
+  margin-left: 0.35em;
+  margin-top: 0.85em;
+  display: block;
+}
+
+#related-search-listing-left {
+   display: block;
+   margin-left: 0.45em;
+   float: left;
+   width: 25%;
+}
+
+#related-search-listing-right {
+  display: block;
+  margin-left: 0.3em;
+  float: left;
+  width: 30%;
+}
+
+#google-search-nav {
+  width: 21em;
+  height: 5.25em;
 }
